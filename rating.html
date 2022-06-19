@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рейтинги фильмов</title>
+    <meta name="description" content="Кинчик - это портал о кино. ">
+    <meta name="keyword" content="фильмы, фильмы онлайн, hd">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <div class="logoText">
+                    <h1><a href="index.html">Кинчик</a></h1>
+                    <h2>Я вставил сюда текст, потому что могу.</h2>
+                </div>
+            </div>
+            <div class="menuBar">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="films.html">Фильмы</a>
+                    </li>
+                    <li>
+                        <a href="#">Сериалы</a>
+                    </li>
+                    <li class="selected">
+                        <a href="rating.html">Рейтинги фильмов</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="siteContent">
+            <div class="sidebarContainer">
+                <div class="sidebar">
+                    <h2>Поиск</h2>
+                    <form method="post" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="Ваш запрос">
+                        <input type="submit" class="btn" value="Найти">
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                    <form method="post" action="#" id="login">
+                        <input type="text" name="loginField" placeholder="Введите логин">
+                        <input type="password" name="passwordField" placeholder="Введите пароль">
+                        <input type="submit" class="btn" value="Войти">
+                        <div class="lablesPassregText">
+                            <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>07.08.2021</span>
+                    <p>Мы запустили расширенный поиск фильмов</p>
+                    <a href="#">Читать</a>
+                </div>
+                <div class="sidebar">
+                    <h2>Рейтинги фильмов</h2>
+                    <ul>
+                        <li><a href="show.html">Интерстеллар</a><span class="ratingSidebar">8.1</span></li>
+                        <li><a href="#">Матрица</a><span class="ratingSidebar">8.0</span></li>
+                        <li><a href="#">Безумный Макс</a><span class="ratingSidebar">7.9</span></li>
+                        <li><a href="#">Облачный Атлас</a><span class="ratingSidebar">7.7</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="rating">
+                    <table class="rating">
+                        <tr>
+                            <th class="center">Номер</th>
+                            <th class="center">Обложка</th>
+                            <th class="center">Фильм</th>
+                            <th class="center">Год</th>
+                            <th class="center">Рейтинг</th>
+                        </tr>
+                        <tr>
+                            <td class="center bold">1</td>
+                            <td class="center"><img src="assets/img/3.jpg" alt="Интерстеллар"></td>
+                            <td class="center"><a href="show.html">Интерстеллар</a></td>
+                            <td class="center">2014</td>
+                            <td class="center bold">8.1/10</td>
+                        </tr>
+                        <tr>
+                            <td class="center bold">2</td>
+                            <td class="center"><img src="assets/img/1.jpg" alt="Матрица"></td>
+                            <td class="center"><a href="#">Матрица</a></td>
+                            <td class="center">1999</td>
+                            <td class="center bold">8.0/10</td>
+                        </tr>
+                        <tr>
+                            <td class="center bold">3</td>
+                            <td class="center"><img src="assets/img/2.jpg" alt="Безумный Макс"></td>
+                            <td class="center"><a href="show.html">Безумный Макс</a></td>
+                            <td class="center">2015</td>
+                            <td class="center bold">7.9/10</td>
+                        </tr>
+                        <tr>
+                            <td class="center bold">4</td>
+                            <td class="center"><img src="assets/img/4.jpg" alt="Облачный Атлас"></td>
+                            <td class="center"><a href="#">Облачный Атлас</a></td>
+                            <td class="center">2013</td>
+                            <td class="center bold">7.7/10</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>
+                <a href="index.html">Главная</a> | 
+                <a href="films.html">Фильмы</a> | 
+                <a href="#">Сериалы</a> | 
+                <a href="rating.html">Рейтинги фильмов</a> | 
+                <a href="contacts.html">Контакты</a> 
+            </p>
+            <p>
+                iamcool.com 2021
+            </p>
+        </div>
+    </div>
+</body>
+</html>
